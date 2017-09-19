@@ -1,0 +1,3 @@
+1. Link til HTML side lavet ud fra vore CD: http://hackernewsclone.azurewebsites.net </br></br>
+2. Vi bruger azure CD som snakker rigtig godt med Azure hvilket er der vores side er hosted. Azure har lavet et super simplet interface, hvor man linker en Web App Service til sit GitHub repo, den sørge så selv for at pulle, builder og deploy på vore Web App Serivce  </br></br>
+3. På den Web App Service hvor vi vil have systemet til at køre, går man ind og vælger at man gerne vil sætte CD op. Man kan så vælge hvilket git repo den skal trække fra og der valgte vi så vores .NET repo. Azure build tools sørge så for at pulle, bygge og deploy projektet på vores Web App Service hver gang vi pusher noget op.
